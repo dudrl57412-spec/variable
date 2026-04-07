@@ -1,4 +1,4 @@
-!<!doctype html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -12,7 +12,17 @@
   </head>
   <body>
     <script>
-    
+      let banana = 3000;
+      let apple = 1500;
+      let mango = 1500;
+      let bananaCount = 5;
+      let appleCount = 4;
+      let mangoCount = 2;
+      let total = (banana *bananaCount) + (apple * appleCount) + (mango * mangoCount);
+      console.log(total);
+      document.write(
+        `<p> 바나나와 사과와 망고를 더한 금액은 <span> ${total} </span>입니다.</p>`,
+      );
     </script>
   </body>
 </html>
